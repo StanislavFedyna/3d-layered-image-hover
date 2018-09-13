@@ -1,75 +1,82 @@
-body{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #56529A;
+body
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #56529a;
+    justify-content: center;
+    align-items: center;
 }
 
-.container{
-  margin-top: 150px;
-  position: relative;
-  width: 360px;
-  height: 640px;
-  background: rgba(0,0,0,0.1);
-  transform: rotate(-30deg) skew(25deg) scale(0.8);
-  -webkit-transform: rotate(-30deg) skew(25deg) scale(0.8);
-  -moz-transform: rotate(-30deg) skew(25deg) scale(0.8);
-  -ms-transform: rotate(-30deg) skew(25deg) scale(0.8);
-  -o-transform: rotate(-30deg) skew(25deg) scale(0.8);
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
+.container
+{
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin-top: 150px;
+    -webkit-transition: .5s;
+       -moz-transition: .5s;
+        -ms-transition: .5s;
+         -o-transition: .5s;
+            transition: .5s;
+    -webkit-transform: rotate(-30deg) skew(25deg) scale(.8);
+       -moz-transform: rotate(-30deg) skew(25deg) scale(.8);
+        -ms-transform: rotate(-30deg) skew(25deg) scale(.8);
+         -o-transform: rotate(-30deg) skew(25deg) scale(.8);
+            transform: rotate(-30deg) skew(25deg) scale(.8);
+    background: rgba(0,0,0,.1);
 }
 
-.container img{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
+.container img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: .5s;
+       -moz-transition: .5s;
+        -ms-transition: .5s;
+         -o-transition: .5s;
+            transition: .5s;
 }
 
-.container:hover img:nth-child(4){
-  transform: translate(160px, -160px);
-  -webkit-transform: translate(160px, -160px);
-  -moz-transform: translate(160px, -160px);
-  -ms-transform: translate(160px, -160px);
-  -o-transform: translate(160px, -160px);
-  opacity: 1;
+.container:hover img:nth-child(4)
+{
+    -webkit-transform: translate(160px, -160px);
+       -moz-transform: translate(160px, -160px);
+        -ms-transform: translate(160px, -160px);
+         -o-transform: translate(160px, -160px);
+            transform: translate(160px, -160px);
+    opacity: 1;
 }
 
-.container:hover img:nth-child(3){
-  transform: translate(120px, -120px);
-  -webkit-transform: translate(120px, -120px);
-  -moz-transform: translate(120px, -120px);
-  -ms-transform: translate(120px, -120px);
-  -o-transform: translate(120px, -120px);
-  opacity: 0.8;
+.container:hover img:nth-child(3)
+{
+    -webkit-transform: translate(120px, -120px);
+       -moz-transform: translate(120px, -120px);
+        -ms-transform: translate(120px, -120px);
+         -o-transform: translate(120px, -120px);
+            transform: translate(120px, -120px);
+    opacity: .8;
 }
 
-.container:hover img:nth-child(2){
-  transform: translate(80px, -80px);
-  -webkit-transform: translate(80px, -80px);
-  -moz-transform: translate(80px, -80px);
-  -ms-transform: translate(80px, -80px);
-  -o-transform: translate(80px, -80px);
-  opacity: 0.6;
+.container:hover img:nth-child(2)
+{
+    -webkit-transform: translate(80px, -80px);
+       -moz-transform: translate(80px, -80px);
+        -ms-transform: translate(80px, -80px);
+         -o-transform: translate(80px, -80px);
+            transform: translate(80px, -80px);
+    opacity: .6;
 }
 
-.container:hover img:nth-child(1){
-  transform: translate(40px, -40px);
-  -webkit-transform: translate(40px, -40px);
-  -moz-transform: translate(40px, -40px);
-  -ms-transform: translate(40px, -40px);
-  -o-transform: translate(40px, -40px);
-  opacity: 0.4;
+.container:hover img:nth-child(1)
+{
+    -webkit-transform: translate(40px, -40px);
+       -moz-transform: translate(40px, -40px);
+        -ms-transform: translate(40px, -40px);
+         -o-transform: translate(40px, -40px);
+            transform: translate(40px, -40px);
+    opacity: .4;
 }
